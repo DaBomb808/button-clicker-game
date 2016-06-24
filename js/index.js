@@ -5,8 +5,8 @@ var demonPoints = 0
 var mostDemonPoints = 666
 var press = function() {
 	demonPoints++;
-	document.getElementById('score').innerHTML = "Your score: " + demonPoints;
+	document.getElementById('score').innerHTML = "Your score: " + demonPoints + " points";
 	if (demonPoints > mostDemonPoints) {
-		document.getElementById('highscore').innerHTML = "New high score: " + demonPoints;
+		document.getElementById('highscore').innerHTML = "New high score: " + demonPoints + " points";
 	}
 }
